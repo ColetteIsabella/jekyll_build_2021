@@ -1,0 +1,38 @@
+<head>
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link href='https://fonts.googleapis.com/css?family=IM+Fell+DW+Pica:400,400italic' rel='stylesheet' type='text/css'>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+
+  <link rel="stylesheet" href="/stylesheets/normalize.css">
+  <link rel="stylesheet" type="text/css" href="/stylesheets/main.css" >
+  <link rel="stylesheet" href="/store/store.css" />
+  <link rel="stylesheet" href="/store/shop.css" />
+
+  <!--<link rel="stylesheet" type="text/css" href="/scripts/jqueryui.min.css" >-->
+
+  <!--<link href="store.rb">-->
+
+
+  <!-- JS -->
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+<script language="JavaScript" type="text/javascript" src="/scripts/jquery-3.3.1.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="/scripts/jquery-ui.min.js"></script>
+
+<script language="JavaScript" type="text/javascript" src="https://js.stripe.com/v3/"></script>
+<script language="JavaScript" type="text/javascript" src="/store/js/shop.js"></script>
+
+<script language="JavaScript" type="text/javascript" src="/store/js/bag.js"></script>
+<!--
+<script src="https://checkout.stripe.com/v3/checkout.js"></script>
+
+<script language="JavaScript" type="text/javascript" src="/store/js/storemain.js"></script>
+<script language="JavaScript" type="text/javascript" src="/store/js/shop.js"></script>
+<script language="JavaScript" type="text/javascript" src="/store/js/animation.js"></script>-->
+
+<script>var stripeKey = '<%= config.stripe_publishable_key %>';</script><script language="JavaScript" type="text/javascript" src="/store/js/store.js"></script>
+</head>

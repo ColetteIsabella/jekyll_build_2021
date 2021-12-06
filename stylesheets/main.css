@@ -1,0 +1,350 @@
+/*Color pallet:
+#fdf286
+#f9e156
+#f2e033
+#f0d21c
+#3a3a3a;
+*/
+ {
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+  -ms-text-size-adjust: 100%; /* 2 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+body {
+  font-family: 'IM Fell DW Pica', sans-serif;
+  background-color: #3a3a3a;
+  color: #fdf286;
+  margin: 1em;
+  text-align: center;
+}
+.centered {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #f9e156;
+}
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1.8em;
+}
+p {
+  font-size: 1.9em;
+}
+ul {
+  display: block;
+    list-style-type: disc;
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0;
+}
+/*--------header--------*/
+
+header {
+  width: 100%;
+  background-color: #f9e156;
+  color: #3a3a3a;
+}
+.social {
+  text-align: center;
+  margin: 0 25%;
+}
+.central {
+  margin: .5em 5%;
+  height: 10em;
+  width: 10em;
+}
+.stamps {
+  height: 4em;
+  width: 4em;
+  margin: .5em .5em 2em .5em;
+}
+.banner {
+  width: 100%;
+  text-align: center;
+}
+.pages {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  padding: .5rem 1em;
+}
+.pages a{
+  color: #3a3a3a;
+}
+@media only screen and (max-width: 800px) {
+.social {
+  margin: 0;
+}
+
+}
+
+/*-----------footer-----------*/
+
+footer {
+  margin-top: 1em;
+  background-color: #f2e033;
+}
+ .footlink{
+  height: 4em;
+  width: 4em;
+  margin: 1em 2em 1em 2em;
+}
+
+/*-----------index-----------*/
+
+.combdky1 {
+  opacity: 0.3;
+  position: fixed;
+  margin-top: -56%;
+  margin-left: 1%;
+  height: 24em;
+  width: auto;
+}
+.combdly1 {
+  opacity: 0.4;
+  position: fixed;
+  margin-top: -39%;
+  margin-left: 11%;
+  height: 29em;
+  width: auto;
+}
+.combwh2 {
+  opacity: 0.3;
+  position: fixed;
+  z-index: -100;
+  margin-top: -74%;
+  margin-left: 64%;
+  height: 40em;
+  width: auto;
+}
+.combdky2 {
+  opacity: 0.3;
+  position: fixed;
+  margin-top: -45%;
+  margin-left: 89%;
+  height: 42em;
+  width: auto;
+}
+.combdly2 {
+  opacity: 0.5;
+  position: fixed;
+  margin-top: -16%;
+  margin-left: -2%;
+  height: 22em;
+  width: auto;
+}
+.combwh1 {
+  opacity: 0.2;
+  position: fixed;
+  margin-top: -13%;
+  margin-left: 80%;
+  height: 25em;
+  width: auto;
+}
+.hello{
+  text-align: center;
+}
+
+#index h2 {
+  font-size: 4rem;
+}
+#index h3 {
+  font-size: 3rem;
+}
+#index h4 {
+  font-size: 3rem;
+}
+/*------------shop-----------*/
+
+.shoppage {
+  margin: 3em 0 3em 0;
+}
+.forsale {
+  width: 70%;
+}
+.left {
+  width: 46%;
+  float: left;
+  margin: 2%;
+}
+.right {
+  width: 46%;
+  float: right;
+  margin: 2%;
+}
+.total {
+  text-align: center;
+  margin: 2%;
+  width: 100%;
+}
+fieldset .info {
+  width: 100%;
+  font-size: 3rem;
+  float: left;
+}
+label, span {
+  font-size: 2rem;
+}
+legend {
+  font-size: 2rem;
+}
+input {
+  font-size: 1.9rem;
+  color: #3a3a3a;
+  opacity: 60%;
+}
+select, option {
+  font-size: 2rem;
+  font-color: #3a3a3a;
+}
+.form-row, .field {
+  margin-top: 1%;
+}
+.displayed-items{
+  width: 98%;
+  height: auto;
+  margin: 2%;
+}
+
+.submit {
+  margin: 2%;
+}
+/*------------resume----------*/
+#resume {
+  margin: 1em;
+}
+#resume h2{
+  margin: 0;
+  color: #f9e156;
+}
+#resume h3 {
+  margin: 0;
+}
+#resume p {
+  color: #f2e033;
+}
+/*----------404------------*/
+#container {
+  text-align: center;
+}
+#container img {
+  width: 40em;
+  height: auto;
+}
+/*-----------bees-----------*/
+#bees {
+  text-align: center;
+}
+#bees p {
+  width: 70%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+#bees .wonder {
+  width: 40%;
+  height: auto;
+}
+#bees img {
+  width: 50%;
+  height: auto;
+  border: black solid 1em;
+}
+.beeline {
+  height: 0;
+  width: 80%;
+  color: #f9e156;
+}
+/*------------about--------*/
+#about {
+  text-align: center;
+  margin: 0 10%;
+}
+#about img {
+  width: 25%;
+  height: auto;
+  border: 2px solid black;
+}
+/*.me {
+  width: 10%;
+  height: auto;
+
+}*/
+/*------------friends--------*/
+.clearfix {
+    overflow: auto;
+}
+
+.first {
+  width: 25%;
+  height: auto;
+  margin: 2em;
+  float: left;
+  border: 3px solid #fff;
+}
+.words {
+  float: left;
+  width: 33%;
+  padding: 3em 1em 3em 1em;
+}
+.second {
+  width: 25%;
+  height: auto;
+  margin: 2em;
+  float: right;
+  border: 3px solid #fff;
+}
+#friends hr {
+  width: 98%;
+  height: 0;
+  color: #fff;
+}
+@media only screen and (max-width: 800px) {
+  .clearfix {
+      overflow: auto;
+  }
+
+  .first {
+    width: 33%;
+    float: left;
+    height: auto;
+    margin: 1em;
+    border: 3px solid #fff;
+  }
+  .words {
+    width: 90%;
+    padding: 3em 1em 3em 1em;
+  }
+  .second {
+    width: 33%;
+    float: right;
+    height: auto;
+    margin: 1em;
+    border: 3px solid #fff;
+  }
+
+  }
+  /*----Patreon----*/
+  .posts {
+    width: 50%;
+  }

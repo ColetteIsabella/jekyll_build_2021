@@ -81,6 +81,7 @@ header {
 .banner {
   width: 100%;
   text-align: center;
+  padding-left: 0;
 }
 .pages {
   display: inline-block;
